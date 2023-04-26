@@ -70,26 +70,25 @@ header {
   margin-bottom: 0.3rem;
 }
 
+li a {
+  margin: 0;
+  padding: 0 !important;
+}
+
 .about a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
   text-decoration: none;
-  padding: 0 1.5rem 0 1.5rem;
+  padding: 0.5rem 1.5rem 0.4rem 1.5rem;
 }
 
 .socialmedia {
   display: flex;
   flex-direction: row;
   list-style: none;
-  margin-bottom: 13rem;
   flex: wrap;
   margin: 0 4rem 13rem 1.4rem;
   gap: 1rem;
-}
-
-li a {
-  margin: 0;
-  padding: 0 !important;
 }
