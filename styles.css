@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins'
+  font-style: normal;
+}
+
+body {
+  background-color: #E5E5E5 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.navbar a {
+font-weight: 700;
+font-size: 18px;
+color: #6070FF;
+line-height: 20px;
+text-decoration: none;
+padding-left: 2rem;
+}
+
+.navbar img {
+  margin-right: 2rem;
+}
+
+#main-section {
+  background-color:   #FFFFFF;
+  border-bottom-left-radius: 50px;
+}
+
+.about {
+  height: 590px;
+  background-image: url("images/header-shapes mobile.png");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.3rem;
+  padding-top: 8rem;
+  margin-top: 2rem;
+}
+
+.about h1 {
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #172B4D;
+padding : 1.5rem 0rem 0rem 1.5rem;
+margin-top: 4rem;
+margin-bottom: 0.7rem;
+}
+
+.about p {
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #344563;
+flex-wrap: wrap;
+padding: 0rem 3rem 0.3rem 1.5rem;
+margin-bottom: 0.3rem;
+}
+
+.about a {
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #7F8CFF;
+text-decoration: none;
+padding: 0rem 1.5rem 0rem 1.5rem;
+margin-bottom: 0.8rem;
+}
+
+.socialmedia {
+display: flex;
+flex-direction: row;
+gap: 1.5rem;
+list-style: none;
+margin-bottom: 13rem; 
+padding: 0rem 1.5rem 0rem 1.5rem;
+
+}
+
