@@ -243,7 +243,7 @@ li a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 0.98rem;
   flex-wrap: wrap;
 }
@@ -305,7 +305,7 @@ li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   margin-top: 2.7rem;
 }
 
@@ -313,7 +313,37 @@ li a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
+}
+
+.skillz span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  gap: 13.08rem;
+  list-style: none;
+  margin-bottom: 8px;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+
+.frameworkz span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  gap: 8.5rem;
+  list-style: none;
+  margin-bottom: 8px;
+  margin-top: 23px;
+  margin-left: 35px;
 }
 
 .skill-list .languages span {
@@ -321,13 +351,12 @@ li a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0px;
   gap: 9rem;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   padding: 12px;
-  color: #000000;
+  color: #000;
 }
 
 .techstack {
@@ -348,8 +377,6 @@ li a {
   font-weight: 500;
   font-size: 15px;
   line-height: 65px;
-  display: flex;
-  align-items: center;
   color: #253858;
   width: 17rem;
   height: 4.2rem;
@@ -364,8 +391,6 @@ li a {
   margin-bottom: 1.5rem;
   background: #f7f7f9;
   border-radius: 8px;
-  background: #f7f7f9;
-  border-radius: 8px;
   font-weight: 500;
   font-size: 15px;
   line-height: 65px;
@@ -374,6 +399,7 @@ li a {
   height: 4.2rem;
   padding: 0.3rem;
 }
+
 .techstack .styling {
   display: flex;
   align-items: center;
@@ -381,48 +407,15 @@ li a {
   gap: 1rem;
   background: #f7f7f9;
   border-radius: 8px;
-  width: 18.938rem;
   height: 4.17rem;
-  background: #f7f7f9;
-  border-radius: 8px;
   font-weight: 500;
   font-size: 15px;
   line-height: 65px;
   color: #253858;
   width: 17rem;
-  height: 4.2rem;
   padding: 0.3rem;
 }
 
-.frameworkz span {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  color: #000000;
-  font-weight: 500;
-  font-size: 1.25rem;
-  line-height: 1.5rem;
-  gap: 8.5rem;
-  list-style: none;
-  margin-bottom: 8px;
-  margin-top: 23px;
-  margin-left: 35px;
-}
-
-.skillz span {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  color: #000000;
-  font-weight: 500;
-  font-size: 1.25rem;
-  line-height: 1.5rem;
-  gap: 13.08rem;
-  list-style: none;
-  margin-bottom: 8px;
-  margin-top: 15px;
-  margin-left: 35px;
-}
 .frameworkz {
   list-style: none;
 }
@@ -447,18 +440,22 @@ li a {
   color: yellow;
   opacity: 0.4;
 }
+
 .linkedin :hover {
   color: yellow;
   opacity: 0.4;
 }
+
 .medium :hover {
   color: yellow;
   opacity: 0.4;
 }
+
 .github :hover {
   color: yellow;
   opacity: 0.4;
 }
+
 .angellist :hover {
   color: yellow;
   opacity: 0.4;
