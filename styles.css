@@ -119,13 +119,6 @@ li a {
   border-radius: 8px;
 }
 
-/* .cards {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #fff;
-} */
-
 .workdescription {
   display: flex;
   flex-direction: column;
@@ -233,4 +226,240 @@ li a {
 .details img {
   width: 0.563rem;
   height: 0.563rem;
+}
+
+/* About Myself Section */
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  padding: 7.125rem 1.5rem;
+  border-top-right-radius: 3rem;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 0.98rem;
+  flex-wrap: wrap;
+}
+
+.top h5 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  width: 20.438rem;
+  height: 2.188rem;
+  line-height: 3.25rem;
+  margin-bottom: 10px;
+}
+
+.top p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #344563;
+  width: 20.438rem;
+  height: 9.188rem;
+}
+
+.top a {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #7f8cff;
+  text-decoration: none;
+}
+
+.top .socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  width: 12.5rem;
+  height: 2.5rem;
+  list-style: none;
+  gap: 1.3rem;
+}
+
+.top .resumebutton {
+  text-align: center;
+  padding: 0.75rem;
+  gap: 0.625rem;
+  width: 10.125rem;
+  height: 3rem;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  color: #396df2;
+  font-weight: 500;
+  font-size: 1.063rem;
+  line-height: 1.5rem;
+  background: #fff;
+  margin-left: -7px;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin-top: 2.7rem;
+}
+
+.skill-list .languages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.skill-list .languages span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  gap: 9rem;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 12px;
+  color: #000000;
+}
+
+.techstack {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 33px;
+}
+
+.techstack .jS {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  background: #f7f7f9;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 65px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+  width: 17rem;
+  height: 4.2rem;
+  padding: 0.3rem;
+}
+
+.techstack .markup {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  background: #f7f7f9;
+  border-radius: 8px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 65px;
+  color: #253858;
+  width: 17rem;
+  height: 4.2rem;
+  padding: 0.3rem;
+}
+.techstack .styling {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  background: #f7f7f9;
+  border-radius: 8px;
+  width: 18.938rem;
+  height: 4.17rem;
+  background: #f7f7f9;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 65px;
+  color: #253858;
+  width: 17rem;
+  height: 4.2rem;
+  padding: 0.3rem;
+}
+
+.frameworkz span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #000000;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  gap: 8.5rem;
+  list-style: none;
+  margin-bottom: 8px;
+  margin-top: 23px;
+  margin-left: 35px;
+}
+
+.skillz span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #000000;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  gap: 13.08rem;
+  list-style: none;
+  margin-bottom: 8px;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+.frameworkz {
+  list-style: none;
+}
+
+.skillz {
+  list-style: none;
+}
+
+.resumebutton:active {
+  color: #fff;
+  border: 1px solid #6070ff;
+  background-color: orange;
+}
+
+.seeproject:active {
+  color: #fff;
+  border: 1px solid #6070ff;
+  background-color: orange;
+}
+
+.twitter :hover {
+  color: yellow;
+  opacity: 0.4;
+}
+.linkedin :hover {
+  color: yellow;
+  opacity: 0.4;
+}
+.medium :hover {
+  color: yellow;
+  opacity: 0.4;
+}
+.github :hover {
+  color: yellow;
+  opacity: 0.4;
+}
+.angellist :hover {
+  color: yellow;
+  opacity: 0.4;
 }
