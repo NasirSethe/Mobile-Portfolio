@@ -94,10 +94,9 @@ li a {
 }
 
 /* WORK SECTION */
-
 .work-section {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   padding: 7.125rem 1.5rem;
   gap: 5.5rem;
 }
@@ -229,7 +228,6 @@ li a {
 }
 
 /* About Myself Section */
-
 .about-section {
   display: flex;
   flex-direction: column;
@@ -424,39 +422,55 @@ li a {
   list-style: none;
 }
 
+.resumebutton:hover {
+  color: #fff;
+  background-color: #6070ff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px;
+}
+
 .resumebutton:active {
   color: #fff;
+  border-radius: 8px;
+  background-color: #2230d2;
+}
+
+.seeproject:hover {
+  color: #fff;
+  background-color: #6070ff;
   border: 1px solid #6070ff;
-  background-color: orange;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px;
 }
 
 .seeproject:active {
   color: #fff;
-  border: 1px solid #6070ff;
-  background-color: orange;
+  border-radius: 8px;
+  background-color: #2230d2;
 }
 
-.twitter :hover {
-  color: yellow;
-  opacity: 0.4;
+.twitter:hover {
+  color: black;
+  opacity: 0.3;
 }
 
-.linkedin :hover {
-  color: yellow;
-  opacity: 0.4;
+.linkedin:hover {
+  color: black;
+  opacity: 0.3;
 }
 
-.medium :hover {
-  color: yellow;
-  opacity: 0.4;
+.medium:hover {
+  color: black;
+  opacity: 0.3;
 }
 
-.github :hover {
-  color: yellow;
-  opacity: 0.4;
+.github:hover {
+  color: black;
+  opacity: 0.3;
 }
 
-.angellist :hover {
-  color: yellow;
-  opacity: 0.4;
+.angellist:hover {
+  color: black;
+  opacity: 0.3;
 }
