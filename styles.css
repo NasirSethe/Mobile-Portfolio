@@ -8,14 +8,13 @@
   font-style: normal;
 }
 
-body {
+.greysection {
   background-color: #f7f7f9;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding-top: 2.5rem;
   background-color: #fff;
   height: 50px;
