@@ -1,6 +1,6 @@
-# Mobile-Portfolio
+# Review-Project
 
-This project is the mobile version of the portfolio - Mobile First Design
+This is an exercise on how to give a professional code review on a past project.
 
 <a name="readme-top"></a>
 
@@ -8,7 +8,7 @@ This project is the mobile version of the portfolio - Mobile First Design
  <img src="images/nasir.logo.png" alt="logo" width="140"  height="auto" />
  <br/>
 
- <h3><b>Mobile Portfolio</b></h3>
+ <h3><b>Review Project</b></h3>
 
 </div>
 
@@ -132,29 +132,26 @@ This project is the mobile version of the portfolio - Mobile First Design
 - Twitter: [@twitterhandle](https://twitter.com/SetheNasir)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdi-nasir-sethe-305a86263/)
 
+👤 Arsene Thierry
+
+- GitHub: [@githubhandle](https://github.com/Arsenethierry)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/arsenethierry/)
+
 👤 Aniekan Winner
+
 - GitHub: [@githubhandle](https://github.com/DevaWinner)
 - Twitter: [@twitterhandle](https://twitter.com/WinnerDevq)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/winnera/)
 
-👤 Arsene Thierry
-
-- GitHub: [@githubhandle](https://github.com/Arsenethierry)
-- Twitter: [@twitterhandle](Coming soon)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/arsenethierry/)
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add desktop version of the portfolio.
-- [ ] Add animations to the portfolio.
-- [ ] Deploy portfolio page.
+- [ ] Add Desktop version.
+- [ ] Add animations.
+- [ ] Deploy project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,14 +175,10 @@ This project is the mobile version of the portfolio - Mobile First Design
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thank fellow micronauts and MV team on this journey.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
