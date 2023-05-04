@@ -42,18 +42,6 @@ header {
   border-bottom-left-radius: 70px;
 }
 
-.about {
-  height: 625px;
-  background-image: url("images/header-shapes mobile.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 0.3rem;
-  padding-top: 5rem;
-}
-
 .about h1 {
   font-weight: 700;
   font-size: 40px;
@@ -232,6 +220,7 @@ li a {
 }
 
 /* About Myself Section */
+
 .about-section {
   display: flex;
   flex-direction: column;
@@ -558,4 +547,144 @@ li a {
   border-radius: 8px;
   border: 1px solid #6070ff;
   background-color: #789bf2;
+}
+
+@media (max-width: 768px) {
+  .about {
+    height: 625px;
+    background-image: url("images/header-shapes mobile.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .unionalt {
+    display: none;
+  }
+  .deskhead {
+    display: none;
+  }
+}
+
+/* DESKTOP VERSION */
+
+@media (min-width: 768px) {
+  .about {
+    height: 58rem;
+    background-image: url("images/background.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header {
+    border: 8px solid red;
+    width: 91rem;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 0;
+  }
+  header .logo {
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: #6070ff;
+    margin-left: 6.68rem;
+  }
+
+  header .button {
+    display: none;
+  }
+
+  header .unionalt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    height: 2.5rem;
+    list-style: none;
+    border: 1px solid black;
+    margin-right: 9.68rem;
+  }
+
+  head .unionalt li {
+    font-weight: 500;
+    font-size: 0.938rem;
+    color: #344563;
+  }
+
+  #main-section {
+    border: 1px solid red;
+    width: 91rem;
+    height: 50rem;
+    padding: 1rem;
+  }
+
+  .bucket {
+    margin: 20.438rem 21.25rem 18.06rem 13rem;
+    border: 1px solid green;
+    width: 52.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .bucket .deskhead {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #091e42;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.35px;
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+
+  .bucket h1 {
+    display: none;
+  }
+  .bucket p {
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #344563;
+    border: 1px solid red;
+    width: 52.5rem;
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+  .bucket a {
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0;
+    margin-bottom: 0.7rem;
+  }
+
+  .bucket .socialmedia {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex: wrap;
+    padding: 0;
+    gap: 1rem;
+    border: 1px solid gold;
+    margin-left: -0.1rem;
+  }
+
+  /* WORK SECTION */
+
+  .greysection {
+    width: 91rem;
+    background-color: #f7f7f9;
+  }
+
+  .work-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 8.875rem 8.875rem;
+  }
 }
