@@ -8,14 +8,13 @@
   font-style: normal;
 }
 
-body {
+.greysection {
   background-color: #f7f7f9;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding-top: 2.5rem;
   background-color: #fff;
   height: 50px;
@@ -34,14 +33,19 @@ header {
   margin-right: 2rem;
 }
 
+.firstlist {
+  display: none;
+}
+
 #main-section {
   background-color: #fff;
-  border-bottom-left-radius: 50px;
+  border-bottom-left-radius: 70px;
 }
 
 .about {
   height: 625px;
   background-image: url("images/header-shapes mobile.png");
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -473,4 +477,85 @@ li a {
 .angellist:hover {
   color: black;
   opacity: 0.3;
+}
+
+.footer {
+  background-color: #6070ff;
+  background-image: url(./images/footer-bg-img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 65px 0 0 0;
+  padding: 2rem 1rem;
+}
+
+.footercontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.footer-section h6 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-section p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ebebff;
+  text-align: center;
+  line-height: 28px;
+  width: 327px;
+  height: 137px;
+}
+
+.input {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 25em;
+  color: #b3bac5;
+}
+
+.form .input {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.footer-button {
+  background: #fff;
+  border-radius: 8px;
+  width: 142px;
+  height: 48px;
+  text-align: center;
+  padding: 12px 16px;
+  color: #6070ff;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.footer-button:hover {
+  color: #fff;
+  background-color: #6070ff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+.footer-button:active {
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+  background-color: #789bf2;
 }
