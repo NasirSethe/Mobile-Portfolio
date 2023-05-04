@@ -731,7 +731,90 @@ li a {
     flex-direction: column;
     align-items: flex-start;
     padding: 1.5rem;
-    gap: 1.5rem;
+    gap: 1.3rem;
+}
+
+.workdescription-desktop h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.19rem;
+  color: #091E42;
+  border: 1px solid black;
+}
+.workdescription-desktop .details {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  padding: 0;
+  gap: 1.5rem;
+  width: 22rem;
+  height: 2.5rem;
+}
+
+.workdescription-desktop .details #wider {
+  width: 8.9rem;
+}
+
+
+.workdescription-desktop .details .pair {
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #6B778C;
+}
+
+.workdescription-desktop .details p {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #344563;
+}
+
+.workdescription-desktop .tech-desk {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  list-style: none;
+}
+
+.workdescription-desktop .tech-desk li {
+  display: flex;
+  align-items: center;
+  background: #ebebff;
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+}
+.workdescription-desktop .seeprojectdesk {
+background: #FFF;
+border: 1px solid #6070ff;
+border-radius: 0.5rem;
+padding: 0.625rem;
+font-weight: 500;
+font-size: 1.063rem;
+text-align: center;
+letter-spacing: 0.03em;
+color: #396DF2;
+
+}
+
+.workdescription-desktop .seeprojectdesk:hover {
+  color: #fff;
+  background-color: #6070ff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px;
+  }
+
+.workdescription-desktop .seeprojectdesk:active {
+  color: #fff;
+  border-radius: 8px;
+  background-color: #2230d2;
 }
 
 }
+
+
+
+
