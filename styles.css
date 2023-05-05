@@ -8,7 +8,11 @@
   font-style: normal;
 }
 
-body {
+/* body {
+  background-color: #f7f7f9;
+} */
+
+.greysection {
   background-color: #f7f7f9;
 }
 
@@ -39,7 +43,18 @@ header {
 
 #main-section {
   background-color: #fff;
-  border-bottom-left-radius: 70px;
+  border-bottom-left-radius: 100px;
+}
+
+.about {
+  height: 625px;
+  background-image: url("images/header-shapes mobile.png");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.3rem;
+  padding-top: 5rem;
 }
 
 .about h1 {
@@ -48,7 +63,7 @@ header {
   line-height: 52px;
   color: #172b4d;
   padding: 1.5rem 0 0 1.5rem;
-  margin-top: 3.3rem;
+  margin-top: 4.3rem;
   margin-bottom: 0.7rem;
 }
 
@@ -73,7 +88,7 @@ li a {
   line-height: 24px;
   color: #7f8cff;
   text-decoration: none;
-  padding: 0.5rem 1.5rem 0.4rem 1.5rem;
+  padding: 0.5rem 1.5rem 0.8rem 1.5rem;
 }
 
 .socialmedia {
@@ -81,7 +96,7 @@ li a {
   flex-direction: row;
   list-style: none;
   flex: wrap;
-  margin: 0 4rem 13rem 1.4rem;
+  margin: 1rem 4rem 13rem 1.4rem;
   gap: 1rem;
 }
 
@@ -579,7 +594,11 @@ li a {
 /* DESKTOP VERSION */
 
 @media (min-width: 768px) {
-  .about {
+
+  body {
+  background-color: #f7f7f9;
+} 
+  #about-desktop {
     padding: 25rem;
     height: 38rem;
     background-image: url("images/background.svg");
@@ -881,7 +900,7 @@ margin-top: 1.6rem;
 
 .skill-list-desktop {
   width: 42.75rem;
-  height: 19.5rem;
+  height: 22.5rem;
   margin-top: 8rem;
   margin-left: 1.5rem;
 }
@@ -941,7 +960,6 @@ margin-top: 1.6rem;
 .skill-list-desktop .techstack .jSImage {
   width: 3rem;
   height: 3rem;
-  border: 1px solid red;
 }
 
 .skill-list-desktop .techstack .markup {
@@ -1026,21 +1044,42 @@ margin-top: 1.6rem;
   line-height: 1.5rem;
   gap: 33rem;
   list-style: none;
+}
 
+.resumebutton-desktop {
 
 }
+
+.resumebutton-desktop:hover {
+  color: #fff;
+  background-color: #6070ff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px;
+}
+
+.resumebutton-desktop:active {
+  color: #fff;
+  border-radius: 8px;
+  background-color: #2230d2;
+}
+
+
+
+
+
 
 /* FOOTER-SECTION DESKTOP */
 
 .footer-desktop {
   background-color: #6070ff;
   width: 90rem;
-  height: 53rem;
+  height: 55rem;
   padding: 10rem;
+  border-top-left-radius: 100px;
 }
 
 .footerhouse-desktop {
-  border: 1px solid red;
   width: 75rem;
   height: 42rem;
   background-image: url("images/background(2).svg");
@@ -1056,7 +1095,6 @@ margin-top: 1.6rem;
   font-weight: 700;
   font-size: 40px;
   color: #fff;
-  border: 1px solid red;
   text-align: center;
 }
 .footercontainer-desktop  p {
@@ -1074,7 +1112,42 @@ margin-top: 1.6rem;
   border-radius: 2px;
   height: 48px;
   width: 447px;
+}
 
+#footerbutton-desktop {
+  width: 330px;
+  height: 48px;
+  display: flex; 
+  margin-top: 2rem;
+}
+
+.footer-button-desktop {
+  background: #fff;
+  border-radius: 8px;
+  width: 142px;
+  height: 48px;
+  text-align: center;
+  padding: 12px 16px;
+  color: #6070ff;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  margin-bottom: 0;
+  margin: 0 auto;
+}
+
+.footer-button-desktop:hover {
+  color: #fff;
+  background-color: #6070ff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+.footer-button-desktop:active {
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+  background-color: #789bf2;
 }
 
 
