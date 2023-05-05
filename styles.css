@@ -794,7 +794,234 @@ color: #396DF2;
   background-color: #2230d2;
 }
 
+/* DESKTOP ABOUT-SECTION */
+.about-section {
+  display: none;
 }
+.footer {
+  display: none;
+}
+
+.about-section-desktop {
+  display: flex;
+  border-top-right-radius: 70px;
+  border: 3px solid black;
+  width: 90rem;
+  height: 38rem;
+}
+
+
+.top-desktop {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  width: 27.938rem;
+  height: 19.438rem;
+  margin-top: 10.375rem;
+  margin-left: 8.938rem;
+  margin-bottom: 27.938rem;
+  gap: 0.9rem;
+}
+
+.top-desktop h5 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #091E42;
+
+}
+.top-desktop p {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #344563;
+}
+
+.top-desktop a {
+  color: #7F8CFF;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.top-desktop .socials-desktop {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 1rem;
+}
+
+.top-desktop .resumebutton-desktop {
+background: #fff;
+border: 1px solid #6070FF;
+border-radius: 0.5rem;
+padding: 0.75rem;
+font-weight: 500;
+font-size: 1.063rem;
+color: #396DF2;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+width: 10.063rem;
+height: 3rem;
+}
+
+.skill-list-desktop {
+  border: 1px solid red;
+  width: 42.75rem;
+  height: 22.5rem;
+  margin-top: 6rem;
+  margin-left: 1.5rem;
+}
+.skill-list-desktop .techstack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.75rem;
+  gap: 0.75rem;
+  width: 24.875rem;
+  height: 9rem;
+  border: 1px solid red;
+
+}
+
+.skill-list-desktop .languages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 1.5rem;
+
+}
+
+.skill-list-desktop .languages span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 0.5rem;
+  padding: 1rem; 
+  color: #344563;
+
+}
+
+.skill-list-desktop .techstack .jS {
+  display: flex;
+  flex-direction: column;
+  width: 7rem;
+  height: 7rem;
+  background: #F7F7F9;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.938rem;
+  color: #253858;
+  gap: 0;
+  padding: 0.7rem;
+}
+
+.skill-list-desktop .techstack .jSImage {
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid red;
+}
+
+.skill-list-desktop .techstack .markup {
+  display: flex;
+  flex-direction: column;
+  width: 7rem;
+  height: 7rem;
+  background: #F7F7F9;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.938rem;
+  color: #253858;
+  gap: 0;
+  padding: 0.7rem;
+}
+
+.skill-list-desktop .techstack .markupImage {
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid red;
+}
+
+.skill-list-desktop .techstack .styling {
+  display: flex;
+  flex-direction: column;
+  width: 7rem;
+  height: 7rem;
+  background: #F7F7F9;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.938rem;
+  color: #253858;
+  gap: 0;
+  padding: 0.7rem;
+  margin-bottom: 1.5rem; 
+}
+
+.skill-list-desktop .techstack .stylingImage {
+  width: 3rem;
+  height: 3rem;
+  /* border: 1px solid red; */
+}
+
+.skill-list-desktop .frameworkz {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #DFE1E6;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  border: 1px solid red;
+
+}
+
+.skill-list-desktop .frameworkz span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  gap: 28.5rem;
+  list-style: none;
+
+}
+
+.skill-list-desktop .skillz{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border: 1px solid blue; */
+  border-bottom: 1px solid #DFE1E6;
+   padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  border: 1px solid red;
+
+}
+.skill-list-desktop .skillz span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  gap: 33rem;
+  list-style: none;
+
+
+}
+
+
+}
+
+
+
+
 
 
 
