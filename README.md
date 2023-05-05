@@ -35,7 +35,7 @@ This project is the desktop version of the portfolio project.
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [MOBILE PORTFOLIO] <a name="about-project"></a>
+# 📖 [DESKTOP VERSION OF PORTFOLIO] <a name="about-project"></a>
 
 > This project is the desktop version of the portfolio project.
 
@@ -165,7 +165,7 @@ This project is the desktop version of the portfolio project.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thank fellow micronauts and MV team on this journey.
+> I would like to thank fellow micronauts and MV family on this journey.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
