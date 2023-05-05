@@ -1,6 +1,6 @@
-# Review-Project
+# Desktop version-Portfolio
 
-This is an exercise on how to give a professional code review on a past project.
+This project is the desktop version of the portfolio project.
 
 <a name="readme-top"></a>
 
@@ -8,7 +8,7 @@ This is an exercise on how to give a professional code review on a past project.
  <img src="images/nasir.logo.png" alt="logo" width="140"  height="auto" />
  <br/>
 
- <h3><b>Review Project</b></h3>
+ <h3><b>Desktop version-Portfolio</b></h3>
 
 </div>
 
@@ -35,9 +35,9 @@ This is an exercise on how to give a professional code review on a past project.
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [MOBILE PORTFOLIO] <a name="about-project"></a>
+# 📖 [DESKTOP VERSION OF PORTFOLIO] <a name="about-project"></a>
 
-> This project is the mobile version of the portfolio - Mobile First Design
+> This project is the desktop version of the portfolio project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -60,8 +60,7 @@ This is an exercise on how to give a professional code review on a past project.
 
 ### Key Features <a name="key-features"></a>
 
-> Added index.html, styles.css files and employed linters.
-
+> Added a responsive new homepage, works-section and a contact-section to the portfolio project. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
@@ -132,26 +131,15 @@ This is an exercise on how to give a professional code review on a past project.
 - Twitter: [@twitterhandle](https://twitter.com/SetheNasir)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdi-nasir-sethe-305a86263/)
 
-👤 Arsene Thierry
-
-- GitHub: [@githubhandle](https://github.com/Arsenethierry)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/arsenethierry/)
-
-👤 Aniekan Winner
-
-- GitHub: [@githubhandle](https://github.com/DevaWinner)
-- Twitter: [@twitterhandle](https://twitter.com/WinnerDevq)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/winnera/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add Desktop version.
-- [ ] Add animations.
-- [ ] Deploy project
+- [ ] Add animations to improve the visuals.
+- [ ] Add javascript functions for an interactive  user experience.
+- [ ] Deploy portfolio page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,6 +148,8 @@ This is an exercise on how to give a professional code review on a past project.
 ## 🤝 Contributing <a name="contributing"></a>
 
 > Contributions, issues, and feature requests are welcome!
+
+> Click here to visit the [issues](/../../issues) page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,10 +165,41 @@ This is an exercise on how to give a professional code review on a past project.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+> I would like to thank fellow micronauts and MV family on this journey.
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
+This project is [MIT](./LICENSE) licensed.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
