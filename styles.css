@@ -51,6 +51,8 @@ header {
   justify-content: center;
   gap: 0.3rem;
   padding-top: 5rem;
+  transform: scale(1);
+  transition: transform 0.5s ease-out;
 }
 
 .about h1 {
@@ -636,6 +638,9 @@ li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: scale-in 0.5s ease-out;
+    transform-origin: center;
+    opacity: 1;
   }
 
   header {
@@ -1197,3 +1202,26 @@ input::placeholder {
 
 input:hover::placeholder {
   transform: translateX(10px);
+}
+
+.card-desktop1:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-out;
+}
+
+.card-desktop2:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-out;
+}
+
+@keyframes scale-in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
