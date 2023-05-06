@@ -590,6 +590,22 @@ li a {
   .work-section-desktop {
     display: none;
   }
+
+  /* ANIMATIONS SECTION */
+
+  .rotated {
+    animation: rotation 50s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0turn);
+    }
+
+    to {
+      transform: rotate(35turn);
+    }
+  }
 }
 
 /* DESKTOP VERSION */
@@ -598,6 +614,18 @@ li a {
   body {
     background-color: #f7f7f9;
   }
+
+  /* #rotated {
+    50% {
+      transform: rotate(180deg);
+    }
+  }
+
+  #rotated {
+    background-color: coral;
+    color: white;
+    animation: mymove 5s infinite;
+  } */
 
   #about-desktop {
     padding: 25rem;
@@ -1136,5 +1164,21 @@ li a {
     border-radius: 8px;
     border: 1px solid #6070ff;
     background-color: #789bf2;
+  }
+
+  /* ANIMATIONS SECTION */
+
+  .rotated {
+    animation: rotation 50s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0turn);
+    }
+
+    to {
+      transform: rotate(45turn);
+    }
   }
 }
