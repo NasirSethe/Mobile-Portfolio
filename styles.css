@@ -51,6 +51,8 @@ header {
   justify-content: center;
   gap: 0.3rem;
   padding-top: 5rem;
+  transform: scale(1);
+  transition: transform 0.5s ease-out;
 }
 
 .about h1 {
@@ -590,6 +592,22 @@ li a {
   .work-section-desktop {
     display: none;
   }
+
+  /* ANIMATIONS SECTION */
+
+  .rotated {
+    animation: rotation 50s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0turn);
+    }
+
+    to {
+      transform: rotate(35turn);
+    }
+  }
 }
 
 /* DESKTOP VERSION */
@@ -598,6 +616,18 @@ li a {
   body {
     background-color: #f7f7f9;
   }
+
+  /* #rotated {
+    50% {
+      transform: rotate(180deg);
+    }
+  }
+
+  #rotated {
+    background-color: coral;
+    color: white;
+    animation: mymove 5s infinite;
+  } */
 
   #about-desktop {
     padding: 25rem;
@@ -608,6 +638,9 @@ li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: scale-in 0.5s ease-out;
+    transform-origin: center;
+    opacity: 1;
   }
 
   header {
@@ -1136,5 +1169,59 @@ li a {
     border-radius: 8px;
     border: 1px solid #6070ff;
     background-color: #789bf2;
+  }
+
+  /* ANIMATIONS SECTION */
+
+  .rotated {
+    animation: rotation 50s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0turn);
+    }
+
+    to {
+      transform: rotate(45turn);
+    }
+  }
+}
+
+.hover:hover {
+  background-color: #6070ff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+input::placeholder {
+  transition: transform 0.2s ease-out;
+}
+
+input:hover::placeholder {
+  transform: translateX(10px);
+}
+
+.card-desktop1:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-out;
+}
+
+.card-desktop2:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-out;
+}
+
+@keyframes scale-in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
   }
 }
