@@ -648,6 +648,7 @@ li a {
     transform-origin: center;
     opacity: 1;
     margin: 0 auto;
+}
 
     header {
       width: 105rem;
@@ -1221,4 +1222,3 @@ li a {
       opacity: 1;
     }
   }
-}
