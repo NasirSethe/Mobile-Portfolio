@@ -617,21 +617,10 @@ li a {
     background-color: #f7f7f9;
   }
 
-  /* #rotated {
-    50% {
-      transform: rotate(180deg);
-    }
-  }
-
-  #rotated {
-    background-color: coral;
-    color: white;
-    animation: mymove 5s infinite;
-  } */
-
   #about-desktop {
     padding: 25rem;
     height: 38rem;
+    width: 95rem;
     background-image: url("images/background.svg");
     background-repeat: no-repeat;
     display: flex;
@@ -641,14 +630,16 @@ li a {
     animation: scale-in 0.5s ease-out;
     transform-origin: center;
     opacity: 1;
+    margin: 0 auto; !important;
   }
 
   header {
-    width: 91rem;
+    width: 105rem;
     height: 4.5rem;
     display: flex;
     align-items: center;
     padding: 0;
+    margin: 0 auto;
   }
 
   header .logo {
@@ -670,7 +661,7 @@ li a {
     gap: 2rem;
     height: 2.5rem;
     list-style: none;
-    margin-right: 11.8rem;
+    margin-right: 19rem;
   }
 
   head .unionalt li {
@@ -680,18 +671,20 @@ li a {
   }
 
   #main-section {
-    width: 91rem;
+    width: 104.9rem;
     height: 50rem;
     padding: 1rem;
-    margin-bottom: 0;
   }
 
   .bucket {
-    margin: 20.438rem 21.25rem 8rem 13rem;
+    margin: 18rem 21.25rem 8rem 9rem;
     width: 52.5rem;
+    height: 37rem;
     display: flex;
     flex-direction: column;
     gap: 0.1rem;
+    flex-wrap: wrap;
+    flex-grow: 1;
   }
 
   .bucket .deskhead {
@@ -758,6 +751,8 @@ li a {
     border: 1px solid #dfe1e6;
     border-radius: 1rem;
     background: #fff;
+    width: 72.25rem;
+    margin: 0 auto;
   }
 
   .card-desktop2 {
@@ -768,6 +763,8 @@ li a {
     gap: 0.75rem;
     border-radius: 1rem;
     background: #fff;
+    width: 72.25rem;
+    margin: 0 auto;
   }
 
   .cardimage-desktop img {
@@ -890,7 +887,7 @@ li a {
   .about-section-desktop {
     display: flex;
     border-top-right-radius: 70px;
-    width: 90rem;
+    width: 105rem;
     height: 45rem;
     background: #fff;
   }
@@ -1103,14 +1100,14 @@ li a {
 
   .footer-desktop {
     background-color: #6070ff;
-    width: 90rem;
+    width: 105rem;
     height: 55rem;
     padding: 10rem;
     border-top-left-radius: 100px;
   }
 
   .footerhouse-desktop {
-    width: 75rem;
+    width: 91rem;
     height: 42rem;
     background-image: url("images/background(2).svg");
     background-size: cover;
@@ -1118,7 +1115,7 @@ li a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 8rem;
+    margin: 0 auto;
   }
 
   .footercontainer-desktop h6 {
