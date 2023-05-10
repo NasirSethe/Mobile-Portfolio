@@ -630,7 +630,7 @@ li a {
     animation: scale-in 0.5s ease-out;
     transform-origin: center;
     opacity: 1;
-    margin: 0 auto; !important;
+    margin: 0 auto !important;
   }
 
   header {

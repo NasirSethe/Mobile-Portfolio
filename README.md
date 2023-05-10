@@ -60,7 +60,8 @@ This project is the desktop version of the portfolio project.
 
 ### Key Features <a name="key-features"></a>
 
-> Added a responsive new homepage, works-section and a contact-section to the portfolio project. 
+> Added a responsive new homepage, works-section and a contact-section to the portfolio project.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
@@ -117,7 +118,7 @@ This project is the desktop version of the portfolio project.
 
 ### Deployment
 
-> Coming soon.
+> Click <a href="">here</a> to see the Live View of the portfolio app.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,8 +139,8 @@ This project is the desktop version of the portfolio project.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] Add animations to improve the visuals.
-- [ ] Add javascript functions for an interactive  user experience.
-- [ ] Deploy portfolio page.
+- [ ] Add javascript functions for an interactive user experience.
+- [ ]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,7 +168,6 @@ This project is the desktop version of the portfolio project.
 
 > I would like to thank fellow micronauts and MV family on this journey.
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -177,29 +177,3 @@ This project is the desktop version of the portfolio project.
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
