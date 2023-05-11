@@ -67,7 +67,7 @@ This project is the desktop and mobile versions of the portfolio project.
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo click <a href="https://nasirsethe.github.io/Mobile-Portfolio/">here</a>
 
 > Click <a href="nasirsethe.github.io>here<a> for a Live Preview.
 
