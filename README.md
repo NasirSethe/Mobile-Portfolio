@@ -119,7 +119,7 @@ This project is the desktop and mobile versions of the portfolio project.
 
 ### Deployment
 
-> Click <a href="nasirsethe.github.io">here</a> to see the Live View of the portfolio app.
+> Click <a href="https://nasirsethe.github.io/Mobile-Portfolio/">here</a> for a Live View of the portfolio app.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +140,7 @@ This project is the desktop and mobile versions of the portfolio project.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] Add animations to improve the visuals.
-- [ ] Add javascript functions for an interactive user experience.
+- [ ] Add javascript for an interactive user experience.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
