@@ -1,6 +1,6 @@
 # Desktop version-Portfolio
 
-This project is the desktop version of the portfolio project.
+This project is the desktop and mobile versions of the portfolio project.
 
 <a name="readme-top"></a>
 
@@ -8,7 +8,7 @@ This project is the desktop version of the portfolio project.
  <img src="images/nasir.logo.png" alt="logo" width="140"  height="auto" />
  <br/>
 
- <h3><b>Desktop version-Portfolio</b></h3>
+ <h3><b>Portfolio</b></h3>
 
 </div>
 
@@ -37,7 +37,7 @@ This project is the desktop version of the portfolio project.
 
 # 📖 [DESKTOP VERSION OF PORTFOLIO] <a name="about-project"></a>
 
-> This project is the desktop version of the portfolio project.
+> This project is the desktop/mobile version of the portfolio project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -60,14 +60,16 @@ This project is the desktop version of the portfolio project.
 
 ### Key Features <a name="key-features"></a>
 
-> Added a responsive new homepage, works-section and a contact-section to the portfolio project. 
+> Added a responsive new homepage, works-section and a contact-section to the portfolio project.
+> Employed Flexbox and grid.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo click <a href="https://nasirsethe.github.io/Mobile-Portfolio/">here</a>
 
-> Coming soon.
+> Click <a href="nasirsethe.github.io>here<a> for a Live Preview.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +119,7 @@ This project is the desktop version of the portfolio project.
 
 ### Deployment
 
-> Coming soon.
+> Click <a href="https://nasirsethe.github.io/Mobile-Portfolio/">here</a> for a Live View of the portfolio app.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,8 +140,7 @@ This project is the desktop version of the portfolio project.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] Add animations to improve the visuals.
-- [ ] Add javascript functions for an interactive  user experience.
-- [ ] Deploy portfolio page.
+- [ ] Add javascript for an interactive user experience.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,7 +168,6 @@ This project is the desktop version of the portfolio project.
 
 > I would like to thank fellow micronauts and MV family on this journey.
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -177,29 +177,3 @@ This project is the desktop version of the portfolio project.
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
